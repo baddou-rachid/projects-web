@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique online</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" href="images/cart1.png">
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-sm p-2" style="background-color: rgb(206, 231, 247);">
+      <a class="navbar-brand" href="#">Accueil</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-none" type="submit">Search</button>
+        </form>
+      </div>
+      <ul class="navbar-nav">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+          </svg>
+          Panier
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle-fill"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z" />
+          </svg>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- les liens et la liste des produits -->
+
+
+  <div class="container mt-5">
+    <div class="row">
+
+      <!-- les liens -->
+
+      <div class="col-md-2">
+        <ul class="nav flex-column nav-pills">
+          <li class="nav-item"><a class="nav-link active" href="#">Catégorie Mobile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sumsung</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">iphone</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Nokia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sony</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BlackBerry</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">LG</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Motorola</a></li>
+        </ul>
+      </div>
+      <!-- fin de 1 colone -->
+
+      <!-- debut 2 colonne -->
+
+      <div class="col-md-9">
+
+        <!-- debut de card principale -->
+
+        <div class="card">
+          <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">Liste des Produits</div>
+          <!-- debut de body card -->
+          <div class="card-body">
+            <!-- debut premier row -->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                    Sumsung A30
+                  </div>
+                  <div class="card-body m-3">
+                    <img src="images/samsung.png" width="80px"
+                      style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                  </div>
+                  <div class="card-footer d-flex justify-content-center">
+                    <div class="alert text-white bg-success" style="float: left;">
+                      <strong>Prix: 1600 DH</strong>
+                    </div>&nbsp;
+                    <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                    Sumsung A20
+                  </div>
+                  <div class="card-body m-3">
+                    <img src="images/samsun.png" width="80px"
+                      style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                  </div>
+                  <div class="card-footer d-flex justify-content-center">
+                    <div class="alert text-white bg-success" style="float: left;">
+                      <strong>Prix: 1500 DH</strong>
+                    </div>&nbsp;
+                    <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                    Huawei
+                  </div>
+                  <div class="card-body m-3">
+                    <img src="images/Huawei.png" width="80px"
+                      style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                  </div>
+                  <div class="card-footer d-flex justify-content-center">
+                    <div class="alert text-white bg-success" style="float: left;">
+                      <strong>Prix: 1700 DH</strong>
+                    </div>&nbsp;
+                    <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- fin de premier row -->
+
+            <!-- debut deuxieme row -->
+
+          <div class="row mt-3">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                  iphone pro max
+                </div>
+                <div class="card-body m-3">
+                  <img src="images/iphone1.png" width="80px"
+                    style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <div class="alert text-white bg-success" style="float: left;">
+                    <strong>Prix: 3600 DH</strong>
+                  </div>&nbsp;
+                  <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                  LG
+                </div>
+                <div class="card-body m-3">
+                  <img src="images/iLG.png" width="80px"
+                    style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <div class="alert text-white bg-success" style="float: left;">
+                    <strong>Prix: 1400 DH</strong>
+                  </div>&nbsp;
+                  <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header text-primary" style="background-color:rgb(206, 231, 247) ;">
+                  Motorola
+                </div>
+                <div class="card-body m-3">
+                  <img src="images/motorola.png" width="80px"
+                    style="display: block; margin: auto;padding: 10px; border: 1px solid #888888;">
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <div class="alert text-white bg-success" style="float: left;">
+                    <strong>Prix: 1100 DH</strong>
+                  </div>&nbsp;
+                  <button type="button" class="btn btn-warning" style="height: 58px;">Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin body card principale -->
+        </div>
+        <!-- fin card principale -->
+      </div>
+      <!-- fin 2 colonne  -->
+
+      <!-- debut 3 colonne -->
+
+      <div class="col-md-1">
+
+      </div>
+
+      <!-- fin 3 colonne -->
+
+    </div>
+  </div>
+</body>
+
+</html>
