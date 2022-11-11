@@ -1,2 +1,2 @@
 
-For Boutique online click [here](https://baddou-rachid.github.io/projects-web/)
+For visiting the web site click [here](https://baddou-rachid.github.io/projects-web/)
