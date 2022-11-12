@@ -1,4 +1,7 @@
 # projects-web
+
+[Le site web]( https://baddou-rachid.github.io/projects-web/)
+
 Voilà les captures des pages web:
 Accueil:
 ![Screenshot (9)](https://user-images.githubusercontent.com/77514940/201470045-68dbb881-ff3f-42e4-997f-e9be29429e9a.png)
