@@ -135,6 +135,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    position:relative;
     height: 400px;
     background-color: #706b64;
     padding: 10px;
@@ -146,8 +147,8 @@ body {
 
 #fleche_bulle {
     position: absolute;
-    top: 470px;
-    left: 840px;
+    top: 100px;
+    left: -12px;
 }
 
 .centrage {
